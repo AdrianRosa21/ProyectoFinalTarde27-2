@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adrian.rosa\\Source\\Repos\\elfinal\\ProyectoFinalTarde27-2\\Avance_27\\Proyecto\\Proyecto_FINAL.csproj",
+      "projectUniqueName": "C:\\Users\\adrian.rosa\\Source\\Repos\\ProyectoFinalTarde27-2\\ProyectoFinalTarde27-2\\Avance_27\\Proyecto\\Proyecto_FINAL.csproj",
       "projectName": "Proyecto_FINAL",
-      "projectPath": "C:\\Users\\adrian.rosa\\Source\\Repos\\elfinal\\ProyectoFinalTarde27-2\\Avance_27\\Proyecto\\Proyecto_FINAL.csproj",
+      "projectPath": "C:\\Users\\adrian.rosa\\Source\\Repos\\ProyectoFinalTarde27-2\\ProyectoFinalTarde27-2\\Avance_27\\Proyecto\\Proyecto_FINAL.csproj",
       "packagesPath": "C:\\Users\\adrian.rosa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adrian.rosa\\Source\\Repos\\elfinal\\ProyectoFinalTarde27-2\\Avance_27\\Proyecto\\obj\\",
+      "outputPath": "C:\\Users\\adrian.rosa\\Source\\Repos\\ProyectoFinalTarde27-2\\ProyectoFinalTarde27-2\\Avance_27\\Proyecto\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

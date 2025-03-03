@@ -34,8 +34,6 @@
             label2 = new Label();
             label1 = new Label();
             groupBox2 = new GroupBox();
-            btnAgregar = new Button();
-            button2 = new Button();
             label3 = new Label();
             groupBox3 = new GroupBox();
             picbox7Dia5 = new PictureBox();
@@ -81,6 +79,10 @@
             groupBox4 = new GroupBox();
             dataGridView1 = new DataGridView();
             label4 = new Label();
+            btnAgregar = new Button();
+            btnEliminar = new Button();
+            label5 = new Label();
+            cmbEjercicios = new ComboBox();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -177,8 +179,10 @@
             // 
             // groupBox2
             // 
+            groupBox2.Controls.Add(label5);
+            groupBox2.Controls.Add(cmbEjercicios);
             groupBox2.Controls.Add(btnAgregar);
-            groupBox2.Controls.Add(button2);
+            groupBox2.Controls.Add(btnEliminar);
             groupBox2.Controls.Add(label3);
             groupBox2.Location = new Point(844, 26);
             groupBox2.Name = "groupBox2";
@@ -186,24 +190,6 @@
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
             groupBox2.Text = "Agregar o eliminar ejercicios";
-            // 
-            // btnAgregar
-            // 
-            btnAgregar.Location = new Point(617, 84);
-            btnAgregar.Name = "btnAgregar";
-            btnAgregar.Size = new Size(180, 62);
-            btnAgregar.TabIndex = 4;
-            btnAgregar.Text = "agregar";
-            btnAgregar.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(190, 87);
-            button2.Name = "button2";
-            button2.Size = new Size(180, 62);
-            button2.TabIndex = 3;
-            button2.Text = "eliminar";
-            button2.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -626,6 +612,43 @@
             label4.TabIndex = 4;
             label4.Text = "¡Recuerda! Puedes es recomendable modificar los valores para que se adecuen mas a tí.";
             // 
+            // btnAgregar
+            // 
+            btnAgregar.Location = new Point(806, 78);
+            btnAgregar.Name = "btnAgregar";
+            btnAgregar.Size = new Size(180, 62);
+            btnAgregar.TabIndex = 4;
+            btnAgregar.Text = "agregar";
+            btnAgregar.UseVisualStyleBackColor = true;
+            btnAgregar.Click += btnAgregar_Click;
+            // 
+            // btnEliminar
+            // 
+            btnEliminar.Location = new Point(606, 78);
+            btnEliminar.Name = "btnEliminar";
+            btnEliminar.Size = new Size(180, 62);
+            btnEliminar.TabIndex = 3;
+            btnEliminar.Text = "eliminar";
+            btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.Click += btnEliminar_Click;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(210, 102);
+            label5.Name = "label5";
+            label5.Size = new Size(67, 21);
+            label5.TabIndex = 6;
+            label5.Text = "Ejercicio";
+            // 
+            // cmbEjercicios
+            // 
+            cmbEjercicios.FormattingEnabled = true;
+            cmbEjercicios.Location = new Point(336, 99);
+            cmbEjercicios.Name = "cmbEjercicios";
+            cmbEjercicios.Size = new Size(202, 29);
+            cmbEjercicios.TabIndex = 5;
+            // 
             // Form3
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
@@ -697,8 +720,6 @@
         private Button btnElegir;
         private GroupBox groupBox2;
         private Label label3;
-        private Button button2;
-        private Button btnAgregar;
         private GroupBox groupBox3;
         private Label lblDia1;
         private PictureBox picbox7Dia1;
@@ -743,5 +764,9 @@
         private GroupBox groupBox4;
         private DataGridView dataGridView1;
         private Label label4;
+        private Label label5;
+        private ComboBox cmbEjercicios;
+        private Button btnAgregar;
+        private Button btnEliminar;
     }
 }
